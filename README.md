@@ -22,4 +22,14 @@ I'm rewritting old kalix code from scratch, because of the many mistakes I did
 
 * [ ] System calls
 * [ ] Standard C library and cross-compiler
-* [ ] GUI 
+* [ ] GUI
+
+## Some details
+
+#### Naming convention
+
+Variable names are written using snake_case, and function names are written using camelCase
+
+#### Physical memory allocation
+
+I use a linked list for most of the memory, and an array for the rest for some special cases
